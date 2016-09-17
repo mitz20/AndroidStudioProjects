@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SwaggiApp</string>
+    <string name="edit_message">Enter Message</string>
+    <string name="button_send">Send</string>
+</resources>
