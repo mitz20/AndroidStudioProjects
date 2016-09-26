@@ -3,7 +3,7 @@ package com.mitz.activities;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SelectContact extends AppCompatActivity {
+public class SelectContactActivity extends AppCompatActivity {
     public static final String EXTRA_TITLE = "EXTRA_TITLE";
 
     @Override

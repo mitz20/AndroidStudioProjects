@@ -1,9 +1,7 @@
 package com.mitz.activities;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -30,8 +28,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         if(view == button){
-            Intent intent =new Intent(this,SelectContact.class);
-            intent.putExtra(SelectContact.EXTRA_TITLE,textBox.getText().toString());
+            Intent intent =new Intent(this,SelectContactActivity.class);
+            intent.putExtra(SelectContactActivity.EXTRA_TITLE,textBox.getText().toString());
             startActivity(intent);
         }
     }
